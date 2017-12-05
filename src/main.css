@@ -1,0 +1,22 @@
+.x-input{
+	width: 88px;
+	margin-top: 9px;
+}
+
+.tweet.x-hide::after{
+	content: "Hidden"
+}
+
+.tweet.x-hide{
+	min-height: unset;
+	padding: 2px 5px;
+}
+
+.tweet.x-hide > .content,
+.tweet.x-hide > .context{
+	display: none;
+}
+
+.translate-button{
+	display: none;
+}

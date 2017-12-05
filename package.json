@@ -1,0 +1,17 @@
+{
+  "name": "twitter-filter",
+  "version": "0.0.1",
+  "description": "Filter tweets by likes",
+  "scripts": {
+    "pack": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "preact": "^8.2.6"
+  }
+}
